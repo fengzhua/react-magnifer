@@ -1,0 +1,35 @@
+.magnifer-warp {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  .magnifer-img {
+    .img-show-left {
+      position: relative;
+      margin-right: 50px;
+      .img-shadow {
+        position: absolute;
+        background-color: rgba(255, 248, 220, 0.3);
+        cursor: move;
+      }
+    }
+    .img-btn-wrap {
+      height: 70px;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-btn {
+        padding: 0 5px;
+      }
+    }
+  }
+  .magnifer-show {
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    overflow: hidden;
+    border: 1px solid black;
+  }
+}
